@@ -1,1 +1,44 @@
 
+@media (max-width: 350px) {
+  .img1 {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 460px) {
+  .img1 {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 900px) {
+  .img1 {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 910px) and (max-width: 1020px){
+  .img1 {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 1024px) {
+  .img2 {
+    visibility: hidden;
+  }
+}
+
+body::-webkit-scrollbar {
+  width: 15px;
+}
+body::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #2C426B;
+}
+body::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(45deg, #4AB1E6, #8BD96E);
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(0,0,0,.12) 0 3px 13px 1px;
+}
+
