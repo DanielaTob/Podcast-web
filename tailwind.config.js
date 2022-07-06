@@ -12,6 +12,9 @@ module.exports = {
         'green': '#8BD96E',
         'yellow': '#FFECA1',
         'dark': '#323232',
+      },
+      fontFamily: {
+        'capriola': ['Capriola'],
       }
     },
   },

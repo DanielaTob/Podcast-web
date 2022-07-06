@@ -6,12 +6,12 @@ const Header = () => {
         
         <nav>
 
-        <ul className='hidden md:flex gap-8 p-6 text-colorparagraph pl-14 text-green'>
-            <li className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-red'>Inicio</li>
-            <li className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-red'>Podcast</li>    
-            <li className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-red'>Nosotros</li>    
-            <li className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-red'>Galería</li>   
-            <li className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-red'>Contacto</li>   
+        <ul className='cursor-pointer hidden md:flex gap-8 p-6 text-colorparagraph text-green'>
+            <li className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-bluelight'>Inicio</li>
+            <li className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-bluelight'>Podcast</li>    
+            <li className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-bluelight'>Nosotros</li>    
+            <li className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-bluelight'>Galería</li>   
+            <li className='transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-bluelight'>Contacto</li>   
         </ul>
 
         </nav>
