@@ -15,6 +15,9 @@ module.exports = {
       },
       fontFamily: {
         'capriola': ['Capriola'],
+      },
+      backgroundImage: {
+        'hero-pattern': "url('/assets/bg1.png')"
       }
     },
   },
