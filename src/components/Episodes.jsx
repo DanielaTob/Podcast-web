@@ -4,7 +4,7 @@ import CardEpi from './cards/CardEpi'
 
 const Episodes = () => {
   return (
-    <div className='min-h-screen max-w-screen-2xl mx-auto pt-20'>
+    <div className='max-w-screen-2xl mx-auto pt-20'>
 
         <div>
             <h2 className='text-center text-5xl text-green font-capriola'>Episodios</h2>
@@ -17,7 +17,10 @@ const Episodes = () => {
             <CardEpi titulo="Nombre del episodio" texto="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order."/>
         </div>
 
-        <More />
+        <div className='pt-10'>
+          <More texto="Ver Más"/>
+        </div>
+        
 
     </div>
   )
