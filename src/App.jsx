@@ -1,27 +1,20 @@
-import Header from './components/Header'
-import Banner from './components/Banner'
-import Episodes from './components/Episodes'
-import Ours from './components/Ours'
-import Slider from './components/Slider'
-import Footer from './components/Footer'
-
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Institucion from "./pages/Institucion";
+import Landing from "./pages/Landing";
+import Proyectos from "./pages/Proyectos";
 
 function App() {
 
 
   return (
 
-    <div className="App font-capriola bg-bluedark max-w-screen-2xl mx-auto">
-      <Header />
-      <Banner />
-      <Episodes />
-      <Ours />
-
-      <Slider/>
-
-      <Footer />
-      
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/institucion" element={<Institucion />} />
+        <Route path="/proyectos" element={<Proyectos />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 

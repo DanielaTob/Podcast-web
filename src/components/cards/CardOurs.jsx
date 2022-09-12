@@ -10,7 +10,7 @@ const CardOurs = ({ image, title, text }) => {
         <div className="flex flex-wrap justify-center">
             <div className="w-full flex justify-center">
                 <div className="relative">
-                    <img src={image} className="animate-bounce absolute -m-16 -ml-20 lg:-ml-16 max-w-[120px]"/>
+                    <img src={image} className="absolute -m-16 -ml-20 lg:-ml-16 max-w-[120px]"/>
                 </div>
             </div>
         </div>
