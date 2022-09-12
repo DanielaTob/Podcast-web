@@ -17,7 +17,8 @@ module.exports = {
         'capriola': ['Capriola'],
       },
       backgroundImage: {
-        'hero-pattern': "url('/assets/bg1.png')"
+        'hero-pattern': "url('/assets/bg1.png')",
+        'hero-school': "url('assets/school2.jpg')"
       }
     },
   },

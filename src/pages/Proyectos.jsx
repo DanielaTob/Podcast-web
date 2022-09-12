@@ -1,9 +1,10 @@
 import React from 'react'
+import ProyectoSection from '../components/ProyectoSection'
 
 const Proyectos = () => {
   return (
     <div>
-        <h>Proyectos</h>
+        <ProyectoSection />
     </div>
   )
 }
