@@ -24,7 +24,7 @@ const CardOurs = ({ image, title, text }) => {
                 </div>
             </div>
         </div>
-        <More texto="Ver Más"/>
+        
     </div>
 </div>
 

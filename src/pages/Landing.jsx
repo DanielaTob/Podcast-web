@@ -1,5 +1,6 @@
 import React from 'react'
 import Banner from '../components/Banner'
+import BlogIntro from '../components/BlogIntro'
 import Episodes from '../components/Episodes'
 import Footer from '../components/Footer'
 import Ours from '../components/Ours'
@@ -12,8 +13,9 @@ const Landing = () => {
       <Episodes />
       <Ours />
 
-      <Slider/>
+       <Slider/>
 
+      <BlogIntro />
       <Footer />
       
     </div>

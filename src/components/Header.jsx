@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className='max-w-screen-2xl fixed mx-auto z-20 top-0 text-xl bg-bluedark w-full justify-start font-medium  md:p-4 items-center'>
+    <div className='max-w-screen-3xl fixed mx-auto z-20 top-0 text-xl bg-bluedark w-full justify-start font-medium  md:p-4 items-center'>
         
         <nav>
 
