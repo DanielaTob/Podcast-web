@@ -6,7 +6,7 @@ const Header = () => {
         
         <nav>
 
-        <ul className='hidden md:flex gap-8 p-6 text-colorparagraph text-green'>
+        <ul className='hidden md:flex gap-8 p-6 text-colorparagraph text-green font-capriola'>
             <li className='cursor-pointer transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-bluelight'>Inicio</li>
             <li className='cursor-pointer transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-bluelight'>Podcast</li>    
             <li className='cursor-pointer transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-bluelight'>Nosotros</li>    

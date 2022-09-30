@@ -1,7 +1,6 @@
 import React from 'react'
 import 'tw-elements';
 import tierra from '/assets/tierra.jpg'
-import tierra1 from '/assets/tierra1.jpg'
 
 
 const Slider = () => {
@@ -47,7 +46,7 @@ const Slider = () => {
 
     <div class="carousel-item relative float-left w-full">
       <img
-        src={tierra1}
+        src={tierra}
         class="block w-full"
         alt="Mountaintop"
       />
