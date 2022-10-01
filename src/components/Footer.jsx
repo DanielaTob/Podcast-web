@@ -18,19 +18,19 @@ const Footer = () => {
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               </h5>
               <div className="mt-6 lg:mb-0 mb-6 flex gap-4">
-                <div className="items-center justify-center bg-bluedark text-white shadow-lg font-normal px-2.5 py-2.5 rounded-full">
+                <div className="transform transition-all duration-300 scale-100 hover:scale-95 items-center justify-center bg-bluedark text-white shadow-lg font-normal px-2.5 py-2.5 rounded-full">
                   <MdLocationOn className="text-center text-xl" />
                 </div>
 
-                <div className="items-center justify-center bg-bluedark text-white shadow-lg font-normal px-2.5 py-2.5 rounded-full">
+                <div className="transform transition-all duration-300 scale-100 hover:scale-95 items-center justify-center bg-bluedark text-white shadow-lg font-normal px-2.5 py-2.5 rounded-full">
                   <MdOutlineLanguage className="text-center text-xl" />
                 </div>
 
-                <div className="items-center justify-center bg-bluedark text-white shadow-lg font-normal px-2.5 py-2.5 rounded-full">
+                <div className="transform transition-all duration-300 scale-100 hover:scale-95 items-center justify-center bg-bluedark text-white shadow-lg font-normal px-2.5 py-2.5 rounded-full">
                   <MdPermPhoneMsg className="text-center text-xl" />
                 </div>
 
-                <div className="items-center justify-center bg-bluedark text-white shadow-lg font-normal px-2.5 py-2.5 rounded-full">
+                <div className="transform transition-all duration-300 scale-100 hover:scale-95 items-center justify-center bg-bluedark text-white shadow-lg font-normal px-2.5 py-2.5 rounded-full">
                   <MdEmail className="text-center text-xl" />
                 </div>
               </div>

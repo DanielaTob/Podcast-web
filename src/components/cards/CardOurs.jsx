@@ -20,7 +20,7 @@ const CardOurs = ({ image, title, text }) => {
         <div className="mt-6 py-6 border-t border-yellow text-center">
             <div className="flex flex-wrap justify-center">
                 <div className="w-full px-4">
-                    <p className="font-light leading-relaxed text-dark mb-4">{text}</p>
+                    <p className="font-light text-sm leading-relaxed text-dark mb-4">{text}</p>
                 </div>
             </div>
         </div>

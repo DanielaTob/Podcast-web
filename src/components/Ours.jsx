@@ -9,7 +9,11 @@ import us3 from '/assets/uus3.png'
 
 const Ours = () => {
   return (
-    <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-screen-2xl mx-auto pt-40 lg:px-16 gap-20'>
+    <div className='max-w-screen-2xl mx-auto pt-20'>
+        <div>
+            <h2 className='text-center text-5xl text-green font-capriola'>Nosotros</h2>
+        </div> 
+    <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 lg:px-16 pt-20'>
       <div>
       <CardOurs image={us1} title="Institusión Educativa" text="An artist of considerable range, Mike is the name taken by Melbourne-raised, Brooklyn-based Nick Murphy writes, performs and records all of his own music, giving it a warm."/>
         <Link to="/institucion">
@@ -32,6 +36,7 @@ const Ours = () => {
       </div>
     
        
+      </div>
       </div>
   )
 }
