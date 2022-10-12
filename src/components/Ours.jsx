@@ -9,7 +9,7 @@ import us3 from '/assets/uus3.png'
 
 const Ours = () => {
   return (
-    <div className='max-w-screen-2xl mx-auto pt-20'>
+    <div id="nosotros" className='max-w-screen-2xl mx-auto pt-20'>
         <div>
             <h2 className='text-center text-5xl text-green font-capriola'>Nosotros</h2>
         </div> 

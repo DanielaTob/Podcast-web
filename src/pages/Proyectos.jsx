@@ -11,21 +11,21 @@ const Proyectos = () => {
         <div className='py-16 w-full gap-10 flex-wrap flex items-center justify-center'>
           <div className='font-capriola'>
             <CardProject />
-            <div className='pt-4 text-center'>
+            <div className='pt-4 flex justify-center'>
               <Modal titulo="Proyecto 1"/>
             </div>
           </div>
 
           <div className='font-capriola'>
             <CardProject />
-            <div className='pt-4 text-center'>
+            <div className='pt-4 flex justify-center'>
               <Modal titulo="Proyecto 2"/>
             </div>
           </div>
 
           <div className='font-capriola'>
             <CardProject />
-            <div className='pt-4 text-center'>
+            <div className='pt-4 flex justify-center'>
               <Modal titulo="Proyecto 3"/>
             </div>
           </div>

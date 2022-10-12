@@ -9,7 +9,7 @@ const Modal = ({titulo}) => {
     <>
     <div className="">
       <button
-      className="px-6 py-2 border border-transparent text-sm leading-6 font-light rounded-lg text-white bg-bluelight focus:outline-none focus:border-green focus:shadow-outline-indigo transition duration-150 ease-in-out"
+      className="button button--moema border-blue-500 px-4 py-2 bg-bluelight hover:bg-blue-500 hover:text-white text-gray-300 relative block focus:outline-none border-2 border-solid rounded-lg text-xs font-semibold uppercase tracking-widest"
       onClick={() => setShowModal(true)}
       > 
       Ver Proyecto
@@ -34,7 +34,7 @@ const Modal = ({titulo}) => {
       
                   <div className="px-4 py-4 flex justify-end">
                     <button
-                      className=" text-white bg-red-600 rounded-lg font-bold  px-6 py-2 text-base outline-none  mr-1 mb-1 "
+                      className=" text-white bg-red-600 text-xs rounded-lg font-bold  px-6 py-2 outline-none  mr-1 mb-1 "
                       type="button"
                       onClick={() => setShowModal(false)}
                     >
