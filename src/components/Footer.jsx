@@ -18,21 +18,21 @@ const Footer = () => {
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               </h5>
               <div className="mt-6 lg:mb-0 mb-6 flex gap-4">
-                <div className="transform transition-all duration-300 scale-100 hover:scale-95 items-center justify-center bg-bluedark text-white shadow-lg font-normal px-2.5 py-2.5 rounded-full">
+                <a target="_blank" href="https://www.google.com/maps/dir/3.4851571,-76.4949997/veinte+de+julio+cali+institucion+educativa/@3.474934,-76.5219527,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x8e30a63971140e29:0x8fd603ebefcba1d8!2m2!1d-76.5175289!2d3.4671978" className="transform transition-all duration-300 scale-100 hover:scale-95 items-center justify-center bg-bluedark text-white shadow-lg font-normal px-2.5 py-2.5 rounded-full">
                   <MdLocationOn className="text-center text-xl" />
-                </div>
+                </a>
 
-                <div className="transform transition-all duration-300 scale-100 hover:scale-95 items-center justify-center bg-bluedark text-white shadow-lg font-normal px-2.5 py-2.5 rounded-full">
+                <a target="_blank" href="https://institucion20dejulio.edu.co/" className="transform transition-all duration-300 scale-100 hover:scale-95 items-center justify-center bg-bluedark text-white shadow-lg font-normal px-2.5 py-2.5 rounded-full">
                   <MdOutlineLanguage className="text-center text-xl" />
-                </div>
+                </a>
 
-                <div className="transform transition-all duration-300 scale-100 hover:scale-95 items-center justify-center bg-bluedark text-white shadow-lg font-normal px-2.5 py-2.5 rounded-full">
+                <a target="_blank" className="transform transition-all duration-300 scale-100 hover:scale-95 items-center justify-center bg-bluedark text-white shadow-lg font-normal px-2.5 py-2.5 rounded-full">
                   <MdPermPhoneMsg className="text-center text-xl" />
-                </div>
+                </a>
 
-                <div className="transform transition-all duration-300 scale-100 hover:scale-95 items-center justify-center bg-bluedark text-white shadow-lg font-normal px-2.5 py-2.5 rounded-full">
+                <a target="_blank" className="transform transition-all duration-300 scale-100 hover:scale-95 items-center justify-center bg-bluedark text-white shadow-lg font-normal px-2.5 py-2.5 rounded-full">
                   <MdEmail className="text-center text-xl" />
-                </div>
+                </a>
               </div>
             </div>
             <div className="w-full lg:w-6/12 px-4">
@@ -45,7 +45,7 @@ const Footer = () => {
                     <li>
                       <a
                         className="text-dark hover:text-yellow font-semibold block pb-2 text-sm"
-                        href="https://www.creative-tim.com/presentation?ref=njs-profile"
+                        href="#"
                       >
                         About Us
                       </a>
@@ -53,7 +53,7 @@ const Footer = () => {
                     <li>
                       <a
                         className="text-dark hover:text-yellow font-semibold block pb-2 text-sm"
-                        href="https://blog.creative-tim.com?ref=njs-profile"
+                        href="#"
                       >
                         Blog
                       </a>
@@ -61,7 +61,7 @@ const Footer = () => {
                     <li>
                       <a
                         className="text-dark hover:text-yellow font-semibold block pb-2 text-sm"
-                        href="https://www.github.com/creativetimofficial?ref=njs-profile"
+                        href="#"
                       >
                         Github
                       </a>
@@ -69,7 +69,7 @@ const Footer = () => {
                     <li>
                       <a
                         className="text-dark hover:text-yellow font-semibold block pb-2 text-sm"
-                        href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile"
+                        href="#"
                       >
                         Free Products
                       </a>
@@ -84,7 +84,7 @@ const Footer = () => {
                     <li>
                       <a
                         className="text-dark hover:text-yellow font-semibold block pb-2 text-sm"
-                        href="https://github.com/creativetimofficial/notus-js/blob/main/LICENSE.md?ref=njs-profile"
+                        href="#"
                       >
                         MIT License
                       </a>
@@ -92,7 +92,7 @@ const Footer = () => {
                     <li>
                       <a
                         className="text-dark hover:text-yellow font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/terms?ref=njs-profile"
+                        href="#"
                       >
                         Terms &amp; Conditions
                       </a>
@@ -100,7 +100,7 @@ const Footer = () => {
                     <li>
                       <a
                         className="text-dark hover:text-yellow font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/privacy?ref=njs-profile"
+                        href="#"
                       >
                         Privacy Policy
                       </a>
@@ -108,7 +108,7 @@ const Footer = () => {
                     <li>
                       <a
                         className="text-dark hover:text-yellow font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/contact-us?ref=njs-profile"
+                        href="#"
                       >
                         Contact Us
                       </a>

@@ -4,7 +4,7 @@ import CardEpi from './cards/CardEpi'
 
 const Episodes = () => {
   return (
-    <div id="episodios" className='max-w-screen-2xl mx-auto pt-20 pb-10'>
+    <div id="episodios" className='max-w-screen-2xl mx-auto pt-28 pb-10'>
 
         <div>
             <h2 className='text-center text-5xl text-green font-capriola'>Episodios</h2>
