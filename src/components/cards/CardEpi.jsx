@@ -1,7 +1,11 @@
 import React from 'react'
 import imgp from '/assets/imgp.jpg'
+import Principal from '../../components/player/Principal'
+
 
 const CardEpi = ({ titulo, texto }) => {
+
+
   return (
     <div className='pt-14 lg:px-10 transform transition-all duration-300 scale-100 hover:scale-95'>
         
@@ -10,8 +14,10 @@ const CardEpi = ({ titulo, texto }) => {
                 <div className="flex flex-col justify-between p-4 leading-normal">
                     <h5 className="mb-2 text-xl font-bold tracking-tight text-yellow">{titulo}</h5>
                     <p className="mb-3 font-normal text-xs text-dark">{texto}</p>
+                    <Principal />
                 </div>
         </div>
+
 
         
     </div>
