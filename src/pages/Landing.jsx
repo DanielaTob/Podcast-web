@@ -4,8 +4,6 @@ import BlogIntro from '../components/BlogIntro'
 import Episodes from '../components/Episodes'
 import Footer from '../components/Footer'
 import Ours from '../components/Ours'
-import Slider from '../components/Slider'
-import Principal from '../components/player/Principal'
 
 const Landing = () => {
   return (
@@ -18,8 +16,6 @@ const Landing = () => {
 
       <BlogIntro />
       <Footer />
-
-      <Principal />
       
     </div>
   )
