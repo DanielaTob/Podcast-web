@@ -11,10 +11,10 @@ const Episodes = () => {
         </div>
 
         <div className='grid sm:grid-cols-1 md:grid-cols-1 md:justify-items-center  lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2'>
-            <CardEpi titulo="Nombre del episodio" texto="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order."/>
-            <CardEpi titulo="Nombre del episodio" texto="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order."/>
-            <CardEpi titulo="Nombre del episodio" texto="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order."/>
-            <CardEpi titulo="Nombre del episodio" texto="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order."/>
+            <CardEpi titulo="Episodio 1 - Niños Medicina" />
+            <CardEpi titulo="Episodio 2 - Niños Medicina"  />
+            <CardEpi titulo="Episodio 3 - Niños Medicina"  />
+            <CardEpi titulo="Episodio 4 - Niños Medicina" />
         </div>
 
         
