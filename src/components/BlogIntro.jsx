@@ -40,7 +40,7 @@ const BlogIntro = () => {
                         className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out"
                         href="#0"
                       >
-                        Titulo del Proyecto
+                        Docente
                       </a>
                     </li>
                   </ul>
@@ -50,7 +50,7 @@ const BlogIntro = () => {
                     className="hover:text-gray-100 transition duration-150 ease-in-out"
                     href="#0"
                   >
-                    Titulo del proyecto
+                    Docente Luz Stella Moreno Losada
                   </a>
                 </h3>
               </header>
@@ -59,9 +59,7 @@ const BlogIntro = () => {
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                 cupidatat.
               </p>
-              <footer className="flex items-center mt-4">
-                <More texto="Ver Proyecto" />
-              </footer>
+              
             </div>
           </article>
         </div>

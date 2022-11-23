@@ -20,7 +20,7 @@ function App() {
   
     const play = () => {
       const audio = audioRef.current
-      audio.volume = 0.1
+      audio.volume = 0.9
   
       if (!isPlaying) {
         setIsPlaying(true)

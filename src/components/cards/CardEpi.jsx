@@ -3,7 +3,7 @@ import imgp from '/assets/imgp.jpg'
 import Principal from '../../components/player/Principal'
 
 
-const CardEpi = ({ titulo, texto }) => {
+const CardEpi = ({ titulo}) => {
 
 
   return (
