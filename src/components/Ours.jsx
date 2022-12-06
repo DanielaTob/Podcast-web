@@ -15,21 +15,21 @@ const Ours = () => {
         </div> 
     <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 lg:px-16 pt-20'>
       <div>
-      <CardOurs image={us1} title="Institusión Educativa" text="An artist of considerable range, Mike is the name taken by Melbourne-raised, Brooklyn-based Nick Murphy writes, performs and records all of his own music, giving it a warm."/>
+      <CardOurs image={us1} title="Institusión Educativa" text="La Institución Educativa Técnico Industrial Veinte de Julio es un establecimiento público adscrito a la Secretaria de Educación Municipal."/>
         <Link to="/institucion">
           <More texto="Conoce Más"/>
         </Link>
       </div>
 
       <div>
-      <CardOurs image={us2} title="Proyectos" text="An artist of considerable range, Mike is the name taken by Melbourne-raised, Brooklyn-based Nick Murphy writes, performs and records all of his own music, giving it a warm."/>
+      <CardOurs image={us2} title="Proyectos" text="En esta sección podrás encontrar interesantes proyectos y propuestas de trabajo en educación inicial y preescolar, aplicados a diferentes áreas, para desarrollar en el aula."/>
         <Link to="/proyectos">
           <More texto="Conoce Más"/>
         </Link>
       </div>
 
       <div>
-      <CardOurs image={us3} title="Galería" text="An artist of considerable range, Mike is the name taken by Melbourne-raised, Brooklyn-based Nick Murphy writes, performs and records all of his own music, giving it a warm."/>
+      <CardOurs image={us3} title="Galería" text="En esta sección podrás encontrar imagenes sobre los proyetos y actividades especiales realizadas en la Institución Educativa Veinte de Julio Sede Ignacio Rengifo, año lectivo 2022."/>
         <Link to="/galeria">
           <More texto="Conoce Más"/>
         </Link>

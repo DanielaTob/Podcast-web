@@ -1,6 +1,6 @@
 import React from "react";
 import More from "./buttons/More";
-import imgkids from '/assets/imgp.jpg'
+import imgkids from '/assets/teacher.jpeg'
 
 const BlogIntro = () => {
   return (
@@ -55,9 +55,9 @@ const BlogIntro = () => {
                 </h3>
               </header>
               <p className="text-sm text-gray-400 flex-grow">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat.
+                Hola, mi nombre es Luz Stella Moreno Losada, soy docente de la Intitución Educativa Veinte de Julio Sede Ignacio Rengifo. <br/> 
+                "La enseñanza que deja huella no es la que se hace de de cabeza a cabeza, si no de corazón a corazón." <br/>
+                HOWARD HENDRICKS
               </p>
               
             </div>

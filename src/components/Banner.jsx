@@ -13,10 +13,11 @@ const Banner = () => {
                 <main className="px-8 sm:px-24 z-10 md:w-2/3 animate__animated animate__backInLeft">
                     <div className="">
                     <p className="m-3 mb-3 text-yellow sm:mt-5 sm:max-w-xl md:mt-5 text-xl font-medium">
-                    Institución Educativa Veinte de Julio
+                    Institución Educativa Veinte de Julio <br/>
+                    Sede Ignacio Rengifo
                     </p>
                     <h2 className="text-5xl tracking-tight leading-10 font-extrabold text-green sm:leading-none md:text-7xl">
-                    PODCAST SCHOOL</h2>
+                    NIÑOS Y NIÑAS MEDICINA</h2>
 
 
                     <div className="mt-5 sm:mt-8 sm:flex justify-start">

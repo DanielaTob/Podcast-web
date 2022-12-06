@@ -12,10 +12,10 @@ const Footer = () => {
           <div className="flex flex-wrap text-left lg:text-left">
             <div className="w-full lg:w-6/12 px-4">
               <h4 className="text-3xl fonat-semibold text-bluedark">
-                Podcast Web!
+                Niñas y Niños Medicina!
               </h4>
               <h5 className="text-lg mt-0 mb-2 text-bluedark">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Institución Educativa Veinte de Julio Sede Ignacio Rengifo.
               </h5>
               <div className="mt-6 lg:mb-0 mb-6 flex gap-4">
                 <a target="_blank" href="https://www.google.com/maps/dir/3.4851571,-76.4949997/veinte+de+julio+cali+institucion+educativa/@3.474934,-76.5219527,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x8e30a63971140e29:0x8fd603ebefcba1d8!2m2!1d-76.5175289!2d3.4671978" className="transform transition-all duration-300 scale-100 hover:scale-95 items-center justify-center bg-bluedark text-white shadow-lg font-normal px-2.5 py-2.5 rounded-full">
@@ -39,15 +39,15 @@ const Footer = () => {
               <div className="flex flex-wrap items-top mb-6">
                 <div className="w-full lg:w-4/12 px-4 ml-auto">
                   <span className="block uppercase text-bluedark text-sm font-semibold mb-2">
-                    Useful Links
+                    Creditos de la pagina
                   </span>
                   <ul className="list-unstyled">
                     <li>
                       <a
                         className="text-dark hover:text-yellow font-semibold block pb-2 text-sm"
-                        href="#"
+                        href="https://www.youtube.com/watch?v=dOaNtjnhqX4"
                       >
-                        About Us
+                        Música 
                       </a>
                     </li>
                     <li>
@@ -55,7 +55,7 @@ const Footer = () => {
                         className="text-dark hover:text-yellow font-semibold block pb-2 text-sm"
                         href="#"
                       >
-                        Blog
+                        Comunidad Educativa
                       </a>
                     </li>
                     <li>
@@ -63,22 +63,15 @@ const Footer = () => {
                         className="text-dark hover:text-yellow font-semibold block pb-2 text-sm"
                         href="#"
                       >
-                        Github
+                        Docente Luz Stella Moreno 
                       </a>
                     </li>
-                    <li>
-                      <a
-                        className="text-dark hover:text-yellow font-semibold block pb-2 text-sm"
-                        href="#"
-                      >
-                        Free Products
-                      </a>
-                    </li>
+                    
                   </ul>
                 </div>
                 <div className="w-full lg:w-4/12 px-4">
                   <span className="block uppercase text-bluedark text-sm font-semibold mb-2">
-                    Other Resources
+                    Agradecimientos
                   </span>
                   <ul className="list-unstyled">
                     <li>
@@ -86,7 +79,7 @@ const Footer = () => {
                         className="text-dark hover:text-yellow font-semibold block pb-2 text-sm"
                         href="#"
                       >
-                        MIT License
+                        Comunidad Educativa
                       </a>
                     </li>
                     <li>
@@ -94,7 +87,7 @@ const Footer = () => {
                         className="text-dark hover:text-yellow font-semibold block pb-2 text-sm"
                         href="#"
                       >
-                        Terms &amp; Conditions
+                        GC4 Cultura
                       </a>
                     </li>
                     <li>
@@ -102,7 +95,7 @@ const Footer = () => {
                         className="text-dark hover:text-yellow font-semibold block pb-2 text-sm"
                         href="#"
                       >
-                        Privacy Policy
+                        Gestores comuna 4
                       </a>
                     </li>
                     <li>
@@ -110,7 +103,7 @@ const Footer = () => {
                         className="text-dark hover:text-yellow font-semibold block pb-2 text-sm"
                         href="#"
                       >
-                        Contact Us
+                        Dagma
                       </a>
                     </li>
                   </ul>

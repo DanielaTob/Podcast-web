@@ -1,5 +1,5 @@
 import React from 'react'
-import imgp from '/assets/imgp.jpg'
+import imgp from '/assets/imgpodcast.jpeg'
 import Principal from '../../components/player/Principal'
 
 

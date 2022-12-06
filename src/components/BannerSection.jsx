@@ -17,7 +17,7 @@ const BannerSection = ({titulo}) => {
               <h3 className="mb-1 text-3xl font-bold text-bluedark">
                 {titulo}
               </h3>
-              <p className="mb-4 mt-4 text-sm font-medium text-dark"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit ratione eos maiores eius adipisci ullam inventore nemo. </p>
+              <p className="mb-4 mt-4 text-sm font-medium text-dark"> Aquí encontrarás más información. Desliza hacía abajo y conocerás más sobre los proyectos, imagenes y nuevas ideas. </p>
               <div className='justify-start flex'>
                 <More texto="Volver"/>
               </div> 

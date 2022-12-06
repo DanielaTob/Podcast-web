@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import CardModal from './cards/CardModal';
 
-const Modal = ({titulo}) => {
+const Modal = ({titulo, texto, imgP, titulo2}) => {
 
     const [showModal, setShowModal] = useState(false);
 
@@ -30,7 +30,7 @@ const Modal = ({titulo}) => {
 
               <div className="">
 
-                  <CardModal />
+                  <CardModal img={imgP} titulo={titulo2} texto1={texto} />
       
                   <div className="px-4 py-4 flex justify-end">
                     <button

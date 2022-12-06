@@ -12,7 +12,7 @@ const Header = () => {
   <div className="container flex flex-wrap justify-between items-center mx-auto">
     <Link to="/" className="flex items-center">
         <img src={us1} className="mr-3 h-9 sm:h-9" alt="Logo" />
-        <span className="mt-2 self-center text-xl font-semibold whitespace-nowrap text-green">Podcast School</span>
+        <span className="mt-2 self-center text-xl font-semibold whitespace-nowrap text-green">Niñas y Niños Medicina</span>
     </Link>
     <div className="hidden w-full md:block md:w-auto" id="navbar-default">
       <ul className="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-bluedark ">
