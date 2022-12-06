@@ -15,7 +15,7 @@ const Insti = () => {
                     <p className="font-normal text-base leading-6 text-dark bg-green px-4 py-4 rounded text-justify">La Institución Educativa Técnico Industrial Veinte de Julio, contribuye en la formación integral del estudiante en los niveles de educación preescolar, básica primaria y bachillerato técnico industrial; con pertinencia, calidad y valores para una armónica convivencia, con un enfoque de inclusión, mediante el desarrollo de competencias referidas al desempeño académico, laboral y socio-ambiental.</p>
                 </div>
                 <div className="w-full lg:w-8/12 ">
-                    <img className="w-full h-full" src={imgkids} alt="A group of People" />
+                    <img className="w-full h-full" src={imgkids1} alt="A group of People" />
                 </div>
             </div>
 
@@ -27,8 +27,8 @@ const Insti = () => {
                 <div className="w-full lg:w-8/12 lg:pt-8 ">
                     <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 lg:gap-4 shadow-lg rounded-md">
                         <div className="p-4 pb-6 flex justify-center flex-col items-center">
-                            <img className="md:block hidden" src={imgkids1} alt="Alexa featured Img" />
-                            <img className="md:hidden block" src={imgkids1} alt="Alexa featured Img" />
+                            <img className="md:block hidden" src={imgkids} alt="Alexa featured Img" />
+                            <img className="md:hidden block" src={imgkids} alt="Alexa featured Img" />
                         </div>
                         <div className="p-4 pb-6 flex justify-center flex-col items-center">
                             <img className="md:block hidden" src={imgkids3} alt="Olivia featured Img" />
