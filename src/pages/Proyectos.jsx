@@ -30,9 +30,9 @@ const Proyectos = () => {
           </div>
 
           <div className='font-capriola'>
-            <CardProject titulo="El Agua" imgCard={imgEntorno} text=""/>
+            <CardProject titulo="El Agua" imgCard={imgEntorno} text="Debido a la importancia que representa el agua en nuestras vidas, debemos concientizar a los estudiantes acerca de su conservación y responsabilizarlos en el cuidado del planeta."/>
             <div className='pt-4 flex justify-center'>
-              <Modal titulo="El Agua" imgP={imgEntorno} titulo2="El Agua" texto=""/>
+              <Modal titulo="El Agua" imgP={imgEntorno} titulo2="El Agua" texto="A través del proyecto El Agua, se busca que los niños adquieran y desarrollen diversas capacidades como la investigación, el análisis y la observación empleadas en la búsqueda de alternativas que propicien la adquisición de una conciencia y reconocimiento de la importancia del agua, así como su cuidado, en base a sus conocimientos previos, al conocer y experimentar las consecuencias y repercusiones de no emprender acciones que promuevan el buen uso del agua, al mismo tiempo que, pondrán en juego habilidades de comunicación y convivencia grupal."/>
             </div>
           </div>
         </div>
