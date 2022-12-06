@@ -24,7 +24,7 @@ const Banner = () => {
                     <div className="rounded-md shadow">
                         <a href="#" className="w-full flex items-center justify-center px-4 py-3 border border-transparent text-base leading-6 font-light rounded-lg text-white bg-bluelight hover:bg-green focus:outline-none focus:border-green focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-3 md:text-md md:px-6">
     
-                        <span>Empecemos</span>
+                        <a href='#episodios'>Empecemos</a>
                         </a>
                     </div>
             
