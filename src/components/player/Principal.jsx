@@ -1,10 +1,9 @@
 import { useState, useRef } from 'react'
-import song from './music/son1.mp3'
 import Slider from './slider/slider'
 import ControlPanel from './controls/ControlPanel'
 
 
-function App() {
+function App({song}) {
     const [percentage, setPercentage] = useState(0)
     const [isPlaying, setIsPlaying] = useState(false)
     const [duration, setDuration] = useState(0)

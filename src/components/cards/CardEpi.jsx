@@ -3,7 +3,7 @@ import imgp from '/assets/imgpodcast.jpeg'
 import Principal from '../../components/player/Principal'
 
 
-const CardEpi = ({ titulo}) => {
+const CardEpi = ({ titulo, song }) => {
 
 
   return (
@@ -13,7 +13,7 @@ const CardEpi = ({ titulo}) => {
             <img className="object-cover w-full h-52 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src={imgp} alt=""/>
                 <div className="flex flex-col justify-between p-4 leading-normal">
                     <h5 className="mb-2 text-xl font-bold tracking-tight text-bluedark">{titulo}</h5>
-                    <Principal />
+                    <Principal song={song}/>
                 </div>
         </div>
 
