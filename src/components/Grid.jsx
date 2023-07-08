@@ -5,6 +5,9 @@ import imgkids3 from '/assets/schoolT.jpeg'
 import imgkids4 from '/assets/school4.jpeg'
 import imgkids5 from '/assets/school5.jpeg'
 import imgkids6 from '/assets/prae.jpeg'
+import imgkids7 from '/assets/diadelaire.png'
+import imgkids8 from '/assets/escuela-verdad.png'
+import imgkids9 from '/assets/huerta2.jpeg'
 
 const Grid = () => {
   return (
@@ -47,6 +50,28 @@ const Grid = () => {
               src={imgkids6}/>
           </div>
         </div>
+
+        <div className="flex flex-wrap w-1/3">
+          <div className="w-full p-1 md:p-2">
+            <img alt="gallery" className="transform transition duration-500 hover:scale-105 block object-cover object-center w-full h-full rounded-lg"
+              src={imgkids7}/>
+          </div>
+        </div>
+
+        <div className="flex flex-wrap w-1/3">
+          <div className="w-full p-1 md:p-2">
+            <img alt="gallery" className="transform transition duration-500 hover:scale-105 block object-cover object-center w-full h-full rounded-lg"
+              src={imgkids8}/>
+          </div>
+        </div>
+
+       <div className="flex flex-wrap w-1/3">
+          <div className="w-full p-1 md:p-2">
+            <img alt="gallery" className="transform transition duration-500 hover:scale-105 block object-cover object-center w-full h-full rounded-lg"
+              src={imgkids9}/>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
