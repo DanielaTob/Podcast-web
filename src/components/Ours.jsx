@@ -15,7 +15,7 @@ const Ours = () => {
         </div> 
     <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 lg:px-16 pt-20'>
       <div>
-      <CardOurs image={us1} title="Institusión Educativa" text="La Institución Educativa Técnico Industrial Veinte de Julio es un establecimiento público adscrito a la Secretaria de Educación Municipal."/>
+      <CardOurs image={us1} title="Institución Educativa" text="La Institución Educativa Técnico Industrial Veinte de Julio es un establecimiento público adscrito a la Secretaria de Educación Municipal."/>
         <Link to="/institucion">
           <More texto="Conoce Más"/>
         </Link>
