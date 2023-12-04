@@ -9,6 +9,17 @@ import imgkids7 from '/assets/diadelaire.png'
 import imgkids8 from '/assets/escuela-verdad.png'
 import imgkids9 from '/assets/huerta2.jpeg'
 
+
+import imgkids10 from '/assets/DIADELATIERRA.png'
+import imgkids11 from '/assets/DIADELAIRELIMPIO.png'
+import imgkids12 from '/assets/GRANJALANDIA2.png'
+import imgkids13 from '/assets/GRANJALANDIA.png'
+import imgkids14 from '/assets/HUERTAESCOLAR.png'
+import imgkids15 from '/assets/LOSSERESVIVOS.png'
+import imgkids16 from '/assets/NOVENA.png'
+import imgkids17 from '/assets/TRANSICIONES.png'
+
+
 const Grid = () => {
   return (
     <section className="overflow-hidden text-gray-700 animate__animated animate__backInLeft">
@@ -71,6 +82,85 @@ const Grid = () => {
               src={imgkids9}/>
           </div>
         </div>
+
+
+
+
+
+        <div className="flex flex-wrap w-1/3">
+          <div className="w-full p-1 md:p-2">
+            <img alt="gallery" className="transform transition duration-500 hover:scale-105 block object-cover object-center w-full h-full rounded-lg"
+              src={imgkids10}/>
+          </div>
+        </div>
+
+
+        <div className="flex flex-wrap w-1/3">
+          <div className="w-full p-1 md:p-2">
+            <img alt="gallery" className="transform transition duration-500 hover:scale-105 block object-cover object-center w-full h-full rounded-lg"
+              src={imgkids11}/>
+          </div>
+        </div>
+
+
+        <div className="flex flex-wrap w-1/3">
+          <div className="w-full p-1 md:p-2">
+            <img alt="gallery" className="transform transition duration-500 hover:scale-105 block object-cover object-center w-full h-full rounded-lg"
+              src={imgkids12}/>
+          </div>
+        </div>
+
+
+        <div className="flex flex-wrap w-1/3">
+          <div className="w-full p-1 md:p-2">
+            <img alt="gallery" className="transform transition duration-500 hover:scale-105 block object-cover object-center w-full h-full rounded-lg"
+              src={imgkids13}/>
+          </div>
+        </div>
+
+        
+        <div className="flex flex-wrap w-1/3">
+          <div className="w-full p-1 md:p-2">
+            <img alt="gallery" className="transform transition duration-500 hover:scale-105 block object-cover object-center w-full h-full rounded-lg"
+              src={imgkids14}/>
+          </div>
+        </div>
+
+
+        <div className="flex flex-wrap w-1/3">
+          <div className="w-full p-1 md:p-2">
+            <img alt="gallery" className="transform transition duration-500 hover:scale-105 block object-cover object-center w-full h-full rounded-lg"
+              src={imgkids15}/>
+          </div>
+        </div>
+
+
+        <div className="flex flex-wrap w-1/3">
+          <div className="w-full p-1 md:p-2">
+            <img alt="gallery" className="transform transition duration-500 hover:scale-105 block object-cover object-center w-full h-full rounded-lg"
+              src={imgkids16}/>
+          </div>
+        </div>
+
+
+
+        <div className="flex flex-wrap w-1/3">
+          <div className="w-full p-1 md:p-2">
+            <img alt="gallery" className="transform transition duration-500 hover:scale-105 block object-cover object-center w-full h-full rounded-lg"
+              src={imgkids17}/>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
 
       </div>
     </div>
